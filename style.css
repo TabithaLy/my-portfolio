@@ -4,7 +4,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 2%;
-    background-color: #fffffe;
+    background-color: #fffcea;
 }
 
 h1 {
@@ -38,12 +38,6 @@ aside {
     border-color: #218d47;
 }
 
-section {
-    line-height: 1.5rem;
-    display: inline;
-    color: black;
-}
-
 h2 {
     display: inline;
     font-size: 200%;
@@ -54,9 +48,28 @@ h2 {
     transition: flex-basis 500ms linear;
     margin-bottom: 1.5rem;
 }
+section {
+    line-height: 100px;
+    height: 100px;
+    text-align: left;
+    color: black;
+}
+  
+section p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section ul {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
 
 .contacts {
     display: inline-block;
+    justify-content: space-evenly;
     padding: 1.5rem;
     font-size: 100%;
 }
