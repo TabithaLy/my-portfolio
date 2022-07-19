@@ -30,9 +30,16 @@ aside {
     background-color: #fafafa;
 }
 
+nav {
+    margin-bottom: 32px;
+    color: #0f4923;
+}
+
 h2 {
     font-size: 200%;
     font-family: serif;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 h3 {
