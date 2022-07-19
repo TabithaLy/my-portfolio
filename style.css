@@ -7,10 +7,21 @@ header {
     background-color: #fffcea;
 }
 
-h1 {
+header nav {
+    padding-top: 1%;
+    margin-right: 1%;
+    float: right;
+    font-family: sans-serif;
+    font-size: 150%;
+}
+header h1 {
     font-family: sans-serif;
     font-size: 350%;
     color: #218d47;
+}
+
+header nav ul {
+    list-style-type: none;
 }
 
 header nav ul li {
@@ -48,11 +59,13 @@ h2 {
     transition: flex-basis 500ms linear;
     margin-bottom: 1.5rem;
 }
+
 section {
     line-height: 100px;
     height: 100px;
     text-align: left;
     color: black;
+    padding-left: 1%;
 }
   
 section p {
