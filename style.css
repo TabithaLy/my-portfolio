@@ -19,27 +19,28 @@ li {
     color: #0f4923;
     display: inline-block;
 }
-/*Aside from Horiseon Challenge modified*/
-aside {
-    padding: 20px;
-    clear: both;
-    float: left;
-    width: 20%;
-    height: 100%;
-    font-family: serif;
-    background-color: #fafafa;
-}
 
 nav {
     margin-bottom: 32px;
     color: #0f4923;
+    padding-left: 2%;
 }
 
 h2 {
     font-size: 200%;
     font-family: serif;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
+    flex: 1 0 100%;
+    padding: 1.5rem;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    padding: 1.5rem;
+    padding-left: 20%;
+    margin-bottom: 1.5rem;
 }
 
 h3 {
