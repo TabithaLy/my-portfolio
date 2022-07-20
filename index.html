@@ -1,6 +1,10 @@
-<!-- copy/paste from UPENN-VIRT-FSF-FT-07-2022-U-LOLC\02-Advanced-CSS\01-Activities\28-Stu_Mini-Project\Main\index.html 
+<!-- 
+    copy/paste from UPENN-VIRT-FSF-FT-07-2022-U-LOLC\02-Advanced-CSS\01-Activities\28-Stu_Mini-Project\Main\index.html 
     fixed spacing
-    deleted unnecessary elements-->
+    deleted unnecessary elements
+    added hero in header
+    added links and images for work section
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,9 +31,10 @@
 
     <main>
         <section class="row justify-center">
-            <div class="card-column">
+            <div class="card-column pinned">
                 <figure class="card code-card">
-                    <h2 id="about-me">About me</h2>
+                    <img src="./me.png" alt="Photo of Tabitha" id="about-me">
+                    <figcaption>About Me</figcaption>
                 </figure>
             </div>
             <div class="card-column">
@@ -39,7 +44,7 @@
             </div>
         </section>
         <section class="row justify-center">
-            <div class="card-column">
+            <div class="card-column pinned">
                 <figure class="card code-card">
                     <h2 id="work">Work</h2>
                 </figure>
@@ -55,17 +60,21 @@
                 </figure>
             </div>
         </section>
+        <section class="row justify-center">
+            <div class="card-column pinned">
+                <figure class="card code-card">
+                    <h2 id="contact-me">Contact Me<Menu></Menu></h2>
+                </figure>
+            </div>
+            <div class="card-column">
+                <ul class="card code-card">
+                    <li><a href="mailto:spencersalmon.tabitha@gmail.com">spencersalmon.tabitha@gmail.com</a></li>
+                    <li><a href="https://github.com/TabithaLy">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/tabitha-spencer-salmon-1096a8132/">LinkedIn</a></li>
+                </ul>
+            </div>
+        </section>
   </main>
-
-  <footer>
-    <h3 id="contact-me">Contact Me</h3>
-    <ul>
-        <li><a href="mailto:spencersalmon.tabitha@gmail.com">spencersalmon.tabitha@gmail.com</a></li>
-        <li><a href="https://github.com/TabithaLy">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/tabitha-spencer-salmon-1096a8132/">LinkedIn</a></li>
-    </ul>
-  </footer>
-
 </body>
 
 </html>
