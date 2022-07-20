@@ -51,6 +51,7 @@ h1 {
   
 h2 {
     font-size: 3.5rem;
+    text-align: center;
 }
   
 h3 {
@@ -115,6 +116,7 @@ main {
   
 footer {
     margin: 1.5rem;
+    padding-bottom: 4%;
 }
 
 footer ul {
@@ -122,6 +124,7 @@ footer ul {
 }
 footer ul li {
     display: inline-block;
+    text-decoration: underline;
 }
 /* create our main grid with flexbox, use negative margins to offset the padding on the .card-column class */
 .row {
