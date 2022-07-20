@@ -1,4 +1,8 @@
-/* copy/paste from UPENN-VIRT-FSF-FT-07-2022-U-LOLC\02-Advanced-CSS\01-Activities\28-Stu_Mini-Project\Main\assets\css\style.css */
+/* copy/paste from UPENN-VIRT-FSF-FT-07-2022-U-LOLC\02-Advanced-CSS\01-Activities\28-Stu_Mini-Project\Main\assets\css\style.css 
+    fixed spacing
+    deleted unnecessary elements
+*/
+
 /* color scheme sourced from http://khroma.co/generator/ */
 :root {
     --outer-space: #33393f;
