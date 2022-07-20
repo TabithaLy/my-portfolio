@@ -112,7 +112,7 @@ header ul li a {
 
 .hero {
     position: relative;
-    height: 800px;
+    height: 350px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("./hero.png");
@@ -124,7 +124,7 @@ main {
     width: 96%;
     margin: 2rem auto;
 }
- 
+
 img {
     display: block;
     height: 50%;
